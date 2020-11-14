@@ -68,4 +68,6 @@ $(document).ready(function () {
     });
     $('#order form').validate();
 
+    $('input[name=phone]').mask("+7 (999) 999-9999");
+
 }); 
