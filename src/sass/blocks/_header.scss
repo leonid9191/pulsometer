@@ -35,3 +35,29 @@
         align-items: flex-end;
     }
 }
+
+@media (max-width: 767px){
+    .header{
+        &__logo{
+            width: 200px;
+        }
+        &__official{
+            font-size: 10px;
+        }
+        &__phone{
+            font-size: 17px;
+        }
+    }
+}
+
+@media (max-width: 1575px){
+    .header{
+        &__official{
+            display: none;
+        }
+        &__phone{
+            font-size: 10px;
+            margin-right: 5px;
+        }
+    }
+}

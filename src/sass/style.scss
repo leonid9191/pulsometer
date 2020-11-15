@@ -9,9 +9,29 @@
     max-width: 950px;
     margin: 0 auto;
 }
+@media (max-width: 1200px){
+    .container {
+        max-width: 750px;
+    }
+}
+@media (max-width: 991px){
+    .container {
+        max-width: 630px;
+    }
+}
+@media (max-width: 767px){
+    .container {
+        max-width: 550px;
+    }
+}
 
-@import 'blocks/promo';
+@media (max-width: 575px){
+    .container {
+        max-width: 350px;
+    }
+}
 @import 'blocks/header';
+@import 'blocks/promo';
 @import 'blocks/buttons';
 @import 'blocks/advantage';
 @import 'blocks/title';
@@ -22,3 +42,4 @@
 @import 'blocks/feed';
 @import 'blocks/footer';
 @import 'blocks/modal';
+@import 'blocks/pageup';

@@ -28,3 +28,41 @@
         font-size: 14px;
     }
 }
+
+@media (max-width: 1200px){
+
+}
+@media (max-width: 991px){
+
+}
+
+@media (max-width: 767px){
+
+}
+
+@media (max-width: 1075px){
+    .button{
+        width: 100px;
+        font-size: 8px;
+        margin-right: 5px;
+        &_main{
+            width: 300px;
+            height: 50px;
+            margin: 0 auto;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+        &_submit{
+            width: 100%;
+            height: 55px;
+            border-radius: 5px;
+            color: #ffffff;
+            font-size: 16px;
+        }
+        &_mini{
+            width: 131px;
+            height: 40px;
+            font-size: 14px;
+        }
+    }
+}
