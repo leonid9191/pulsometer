@@ -65,7 +65,7 @@ $(document).ready(function(){
             messages: {
                 name: {
                     required: "Пожалуйста, введите свое имя",
-                    minlength: jQuery.validator.format("Введите {0} символа!")
+                    minlength: jQuery.validator.format("Введите минимум {0} символа.")
                   },
                 phone: "Пожалуйста, введите свой номер телефона",
                 email: {
