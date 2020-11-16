@@ -11,3 +11,13 @@
         text-align: left;
     }
 }
+
+@media (max-width: 575px){
+    .consultation{
+        &__descr{
+            color: #ffffff;
+            margin-top: 50px;
+            font-size: 16px;
+        }
+    }
+}
