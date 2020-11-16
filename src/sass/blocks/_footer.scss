@@ -50,3 +50,29 @@
         align-items: center;
     }
 }
+
+@media (max-width: 575px){
+    .footer{
+        height: 630px;
+        position: relative;
+        &__info{
+            max-width:350px;
+            height: 250px;
+        }
+        &__social-item{
+            width: 40px;
+            height: 40px;
+            img{
+                height: 20px;
+            }
+        }
+        &__phone{
+            font-size: 15px;
+        }
+        &__addr{
+            font-size: 18px;
+        }
+
+
+    }
+}
